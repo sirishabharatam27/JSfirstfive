@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Example</title>
+</head>
+<body>
+<script>
+	/*var bar={name:"sirisha", age:25};
+	console.log(typeof bar==="object");*/
+	
+	var bar = null;
+	//console.log(typeof bar === "object"); 
+	//console.log(( bar!== null)&&(typeof bar === "object"));
+	//console.log((bar !== null) && ((typeof bar === "object") || (typeof bar === "function")));
+	console.log((bar !== null) && (typeof bar === "object") && (toString.call(bar) !== "[object Array]"));
+</script>
+</body>
+</html>
