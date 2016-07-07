@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<script >
+
+var str;
+
+ function isPalindrome(str) {
+	    str = str.replace(/\W/g, '').toLowerCase();
+	    return (str == str.split('').reverse().join(''));
+	}
+ console.log(isPalindrome("level"));                   
+ console.log(isPalindrome("levels"));                
+ console.log(isPalindrome("A car, a man, a maraca"));  
+</script>
+
+</body>
+</html>
